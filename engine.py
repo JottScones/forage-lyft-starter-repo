@@ -1,6 +1,5 @@
-from abc import ABC, abstractmethod
 from serviceable import Serviceable
 
-class Engine(Serviceable, ABC):
+class Engine(Serviceable):
     """Engine abstract class."""
     pass

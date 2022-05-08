@@ -3,7 +3,7 @@ from battery import Battery
 class NubbinBattery(Battery):
     """Implementation of the Nubbin Battery class."""
 
-    def __init__(self, current_date,  last_service_date):
+    def __init__(self, current_date, last_service_date):
         self.current_date      = current_date
         self.last_service_date = last_service_date
 
